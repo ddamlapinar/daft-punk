@@ -29,6 +29,7 @@ body {
 }
 .container-fluid{
     max-width: 1366px;
+    margin:0 auto;
 }
 .header{
     display: flex;
@@ -62,28 +63,37 @@ body {
 }
 .hero{
     display: flex;
-    background: url(img/daftpunk.png) no-repeat center center fixed;
-   
+    position: relative;
+    overflow:hidden;
+
+}
+.daft-punk{
+    font-size: 540px;
+    color:#FFFFFF;
+    position: absolute;
+    z-index: 1;
+    font-weight: 600;
     
- 
-    /* background-repeat: no-repeat;
-    background-position: center; */
+   
+
 }
 .hero__img{
     width:100%;
-    
+    z-index: 3;
     
 }
 .hero__img img{
     padding-top: 100px;
 }
 /* background:#eee url(images/bodybgbottomleft.png) no-repeat center fixed; */
+
 .content{
     display: flex;
  
     color: #ffffff;
     font-size:20px;
     font-weight: 400;
+    text-align: left;
 }
 .col{
     margin-top: 90px;
@@ -91,3 +101,10 @@ body {
 .col + .col {
     margin-left: 30px;
   }
+  .title{
+      text-align: center;
+      font-size: 82px;
+      color: #ffffff;
+      
+  }
+ 
