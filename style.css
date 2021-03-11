@@ -80,6 +80,7 @@ body {
 .hero__img{
     width:100%;
     z-index: 3;
+    padding-top: 150px;
     
 }
 .hero__img img{
@@ -92,19 +93,46 @@ body {
  
     color: #ffffff;
     font-size:20px;
-    font-weight: 400;
     text-align: left;
+    font-weight: 100;
 }
 .col{
     margin-top: 90px;
+    padding:0 45px ;
+ 
+
 }
-.col + .col {
+/* .col + .col {
     margin-left: 30px;
-  }
+  } */
+  .slider{
+    position:relative;
+    padding-top: 420px;
+}
   .title{
       text-align: center;
       font-size: 82px;
       color: #ffffff;
-      
+     position: absolute;
+     top:1%;
+     left:50%;
+    transform: translate(-50%,-1%);
+     z-index: 3;
+
   }
  
+ .nav-back-icon{
+     position:absolute;
+     top: 35%;
+     left:-10%;
+     transform:translate(50%,-10%);
+    
+ }
+ .nav-next-icon{
+    position:absolute;
+    top: 35%;
+    right:-10%;
+    transform:translate(-50%,-10%);
+    
+   
+}
