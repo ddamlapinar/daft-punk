@@ -136,3 +136,36 @@ body {
     
    
 }
+.concert-list{
+    display: flex;
+    flex-direction:column;
+    
+}
+.concert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+    border-bottom:1px solid #707070;
+}
+
+
+.date{
+    clip-path: polygon(82% 0, 100% 38%, 100% 100%, 0 99%, 0 0);
+    background-color:#fff;
+    padding:10px;
+    text-align: center;
+    
+}
+.concert-title{
+    color: #fff;
+    text-transform: uppercase;
+    flex-grow: 1;
+    margin-left: 120px;
+
+}
+.concert-button{
+    display:block;
+    padding:10px;
+    border:1px solid #fff;
+}
